@@ -62,16 +62,16 @@ const Navbar = () => {
             >
               Services
             </Link>
-            <Link
+             <Link
               to="doctors"
               spy={true}
               smooth={true}
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Doctors
+              Counselers
             </Link>
-            <Link
+            {/*<Link
               to="blog"
               spy={true}
               smooth={true}
@@ -79,7 +79,7 @@ const Navbar = () => {
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
               Blog
-            </Link>
+            </Link> */}
           </nav>
 
           <div className=" hidden lg:flex">
@@ -136,7 +136,7 @@ const Navbar = () => {
           >
             Services
           </Link>
-          <Link
+           <Link
             to="doctors"
             spy={true}
             smooth={true}
@@ -144,9 +144,9 @@ const Navbar = () => {
             className=" hover:text-hoverColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Doctors
+            Counselers
           </Link>
-          <Link
+          {/*<Link
             to="blog"
             spy={true}
             smooth={true}
@@ -155,7 +155,7 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             Blog
-          </Link>
+          </Link> */}
 
           <div className=" lg:hidden">
             <button
