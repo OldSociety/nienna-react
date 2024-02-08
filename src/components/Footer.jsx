@@ -45,7 +45,7 @@ const Footer = () => {
           </nav>
         </div>
         <div>
-          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Services</h1>
+          <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Approaches</h1>
           <nav className=" flex flex-col gap-2">
             <Link
               to="services"
@@ -54,7 +54,7 @@ const Footer = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Lab Test
+              Cognitive Behavioral Therapy (CBT)
             </Link>
             <Link
               to="services"
@@ -63,7 +63,7 @@ const Footer = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Health Check
+              Dialectial Behavior Therapy (DBT)
             </Link>
             <Link
               to="services"
@@ -72,7 +72,7 @@ const Footer = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Heart Health
+              Sex Therapy
             </Link>
           </nav>
         </div>
@@ -83,7 +83,7 @@ const Footer = () => {
               123 Elm Street, Suite 456 Springfield, IL 62701 United States
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
-              support@care.com
+              tasha@niennacounseling.com
             </Link>
             <Link to="/" spy={true} smooth={true} duration={500}>
               +123-456-7890
